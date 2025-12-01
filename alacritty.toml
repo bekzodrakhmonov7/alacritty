@@ -4,15 +4,13 @@ general.import = [ "alacritty-theme.toml" ]
 TERM = "xterm-256color"
 
 [font]
-normal = { family = "CaskaydiaMono Nerd Font" }
-bold = { family = "CaskaydiaMono Nerd Font" }
-italic = { family = "CaskaydiaMono Nerd Font" }
+normal = { family = "CaskaydiaMono NF" }
+# normal = { family = "CaskaydiaMono Nerd Font" }
+bold = { family = "CaskaydiaMono NF" }
+# bold = { family = "CaskaydiaMono Nerd Font" }
+italic = { family = "CaskaydiaMono NF" }
+# italic = { family = "CaskaydiaMono Nerd Font" }
 size = 15
-
-[window]
-padding.x = 14
-padding.y = 14
-decorations = "None"
 
 [keyboard]
 bindings = [
